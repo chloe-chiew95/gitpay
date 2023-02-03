@@ -1,3 +1,5 @@
+Login-page
+
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { withRouter, Link } from 'react-router-dom'
@@ -15,8 +17,10 @@ const styles = theme => ({
     backgroundColor: cyan[500]
   },
   card: {
-    width: '50%',
-    marginTop: 50
+    width: '30%',
+    padding: '20px 10px 5px 10px', // top right down left
+    marginTop: 50,
+    boxShadow: '0px 0px 10px 2px grey'
   },
   cardContent: {
     textAlign: 'center'
